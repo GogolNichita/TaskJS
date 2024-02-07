@@ -61,7 +61,7 @@ function InteravalSum(){
     }
         alert("Sum of even numbers at the [" + left + ";" + right +"] is " + sum);
 }
-
+//
 // function StringConvert(){
 //     const ucFirst = prompt("Introduce string");
 //     let str =
