@@ -92,10 +92,19 @@ function PromptAlert(){
     }
         alert('Error');
 }
+
+function Age(){
+    const age = Number(prompt("Introduce Age"));
+    if (age >= 14 && age <= 90) alert("Without Not : It's okey");
+        else alert("Without Not: Error");
+    if (!(age <14 || age > 90)) alert("With Not : It's okey");
+        else alert("With Not: Error");
+}
 //Task();
 //SumOfNumber();
 //InteravalSum();
 //MinimalMaximal();
 //ucFirst();
 //extractCurrencyValue();
-PromptAlert();
+// PromptAlert();
+Age();
