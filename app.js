@@ -85,12 +85,9 @@ function extractCurrencyValue(){
 
 function PromptAlert(){
     let number = Number(prompt("Introduce number = "));
-    if (number === "number") {
         if (number > 0) alert(1);
-        else if (number < 0) alert(-1);
-        else if (number === 0) alert(0);
-    }
-        alert('Error');
+            else if (number < 0) alert(-1);
+                 else if (number === 0) alert(0);
 }
 
 function Age(){
