@@ -100,6 +100,20 @@ function Age(){
     if (!(age <14 || age > 90)) alert("With Not : It's okey");
         else alert("With Not: Error");
 }
+
+function UserInteraction(){
+    const name = prompt('Как тебя зовут?')
+
+    alert(`Привет ${name}. Приятно познакомится!`)
+
+    const knowJS = confirm('Знаешь ли ты JavaScript?')
+    if (knowJS) {
+        alert('Молодец')
+    } else {
+        alert('Можно начать изучение прямо сейчас')
+    }
+}
+
 //Task();
 //SumOfNumber();
 //InteravalSum();
@@ -107,4 +121,5 @@ function Age(){
 //ucFirst();
 //extractCurrencyValue();
 // PromptAlert();
-Age();
+// Age();
+UserInteraction();
