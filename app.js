@@ -72,21 +72,19 @@ function MinimalMaximal(){
     alert("Maximal number is " + Math.max(a,b,c));
 }
 
-// function StringConvert(){
-//     const ucFirst = prompt('Introduce string');
-//    // let str = ucFirst.prototype.toUpperCase;
-//     console.log(ucFirst.prototype.toUpperCase);
-// }
-
 function ucFirst() {
    let str = prompt ("Introduce string");
     if (!str) return str;
     alert( str[0].toUpperCase() + str.slice(1));
 }
 
+function extractCurrencyValue(){
+    let str = prompt("Introduce you currency and value");
+    alert(+str.slice(1));
+}
 //Task();
 //SumOfNumber();
 //InteravalSum();
 //MinimalMaximal();
-// StringConvert();
 //ucFirst();
+extractCurrencyValue();
