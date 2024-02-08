@@ -62,6 +62,16 @@ function InteravalSum(){
         alert("Sum of even numbers at the [" + left + ";" + right +"] is " + sum);
 }
 //
+
+function MinimalMaximal(){
+    const a = Number(prompt("Introduce a= "));
+    const b = Number(prompt("Introduce b= "));
+    const c = Number(prompt("Introduce c= "));
+
+    alert("Minimal number is " + Math.min(a,b,c));
+    alert("Maximal number is " + Math.max(a,b,c));
+}
+
 // function StringConvert(){
 //     const ucFirst = prompt("Introduce string");
 //     let str =
@@ -69,3 +79,4 @@ function InteravalSum(){
 //Task();
 //SumOfNumber();
 //InteravalSum();
+//MinimalMaximal();
