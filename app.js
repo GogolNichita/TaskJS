@@ -114,6 +114,12 @@ function UserInteraction(){
     }
 }
 
+function Divide(){
+    const number = Number(prompt("Introduce Number= "))
+    for (let i = 2; i<=number/2; i++ )
+        if (number % i === 0 )  console.log(i);
+}
+
 //Task();
 //SumOfNumber();
 //InteravalSum();
@@ -122,4 +128,5 @@ function UserInteraction(){
 //extractCurrencyValue();
 // PromptAlert();
 // Age();
-UserInteraction();
+// UserInteraction();
+Divide();
