@@ -82,9 +82,20 @@ function extractCurrencyValue(){
     let str = prompt("Introduce you currency and value");
     alert(+str.slice(1));
 }
+
+function PromptAlert(){
+    let number = Number(prompt("Introduce number = "));
+    if (number === "number") {
+        if (number > 0) alert(1);
+        else if (number < 0) alert(-1);
+        else if (number === 0) alert(0);
+    }
+        alert('Error');
+}
 //Task();
 //SumOfNumber();
 //InteravalSum();
 //MinimalMaximal();
 //ucFirst();
-extractCurrencyValue();
+//extractCurrencyValue();
+PromptAlert();
