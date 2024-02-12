@@ -116,14 +116,14 @@ function Divide(){
     for (let i = 2; i<=number/2; i++ )
         if (number % i === 0 )  console.log(i);
 }
-
+123
 //Task();
 //SumOfNumber();
 //InteravalSum();
 //MinimalMaximal();
-//ucFirst();
+// ucFirst();
 //extractCurrencyValue();
 // PromptAlert();
 // Age();
 // UserInteraction();
-Divide();
+// Divide();
